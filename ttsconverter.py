@@ -4,12 +4,6 @@ import pyttsx3
 import os
 import shutil
 import openai
-#from openai import OpenAI
-
-'''client = OpenAI(
-    # This is the default and can be omitted
-    api_key=os.environ.get("OPENAI_API_KEY"),
-)'''
 
 # Ensure necessary directories exist
 os.makedirs('uploads', exist_ok=True)
